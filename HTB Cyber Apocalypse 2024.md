@@ -43,9 +43,10 @@ Now putting the flags together (HTB{w1ll_y0u_St4nd_y0uR_Gr0uNd!!}) we’re able 
 Flag: HTB{w1ll_y0u_St4nd_y0uR_Gr0uNd!!}
 
 
+Urgent (very easy) 
 ===============================================================
 
-Urgent (very easy) - “In the midst of Cybercity's "Fray," a phishing attack targets its factions, sparking chaos. As they decode the email, cyber sleuths race to trace its source, under a tight deadline. Their mission: unmask the attacker and restore order to the city. In the neon-lit streets, the battle for cyber justice unfolds, determining the factions' destiny.” 
+“In the midst of Cybercity's "Fray," a phishing attack targets its factions, sparking chaos. As they decode the email, cyber sleuths race to trace its source, under a tight deadline. Their mission: unmask the attacker and restore order to the city. In the neon-lit streets, the battle for cyber justice unfolds, determining the factions' destiny.” 
 
 Summary: Analyze and decode a phishing email with an .html attachment containing encoded JavaScript payload to uncover the flag.
 
@@ -67,9 +68,10 @@ The phishing payload itself was a fake 404 not found page that contained a power
 Flag: HTB{4n0th3r_d4y_4n0th3r_ph1shi1ng_4tt3mpT}
 
 
+Fake Boost (easy)
 ===============================================================
 
-Fake Boost (easy) - “In the shadow of The Fray, a new test called ""Fake Boost"" whispers promises of free Discord Nitro perks. It's a trap, set in a world where nothing comes without a cost. As factions clash and alliances shift, the truth behind Fake Boost could be the key to survival or downfall. Will your faction see through the deception? KORP™ challenges you to discern reality from illusion in this cunning trial.”
+“In the shadow of The Fray, a new test called ""Fake Boost"" whispers promises of free Discord Nitro perks. It's a trap, set in a world where nothing comes without a cost. As factions clash and alliances shift, the truth behind Fake Boost could be the key to survival or downfall. Will your faction see through the deception? KORP™ challenges you to discern reality from illusion in this cunning trial.”
 
 Summary: This challenge resembles analyzing malware and the corresponding exfiltration. Analyze a packet capture file containing a powershell script advertised as free Discord Nitro but turns out to be a credential stealer with exfiltration capabilities. Reversing the script will allow uncovering the secrets contained in the exfiltrated data observed in a POST request.
 
@@ -106,9 +108,10 @@ Noticing that the email appeared as base64 encoded data instead of an actual ema
 Flag: HTB{fr33_N17r0G3n_3xp053d!_b3W4r3_0f_T00_g00d_2_b3_7ru3_0ff3r5}
 
 
+Pursue The Tracks (easy)
 ===============================================================
 
-Pursue The Tracks (easy) - “Luxx, leader of The Phreaks, immerses himself in the depths of his computer, tirelessly pursuing the secrets of a file he obtained accessing an opposing faction member workstation. With unwavering determination, he scours through data, putting together fragments of information trying to take some advantage on other factions. To get the flag, you need to answer the questions from the docker instance.”
+“Luxx, leader of The Phreaks, immerses himself in the depths of his computer, tirelessly pursuing the secrets of a file he obtained accessing an opposing faction member workstation. With unwavering determination, he scours through data, putting together fragments of information trying to take some advantage on other factions. To get the flag, you need to answer the questions from the docker instance.”
 
 Summary: This resembles a file system artifact forensic challenge. We were provided a docker instance to answer some questions about the MFT file provided. Use tools like MFTEcmd and volatility to perform analysis on the MFT record and answer the corresponding questions in the docker instance to earn the flag: 
 ![image](https://github.com/ryanperez151/CTF-Writeups/assets/50554328/77c8ccb4-4804-4365-b335-42d0dd9a27bd)
@@ -133,9 +136,10 @@ Reviewed the output in a text editor and found the hidden file:
 Flag: HTB{p4rs1ng_mft_1s_v3ry_1mp0rt4nt_s0m3t1m3s}
 
 
+Phreaky (medium)
 ===============================================================
 
-Phreaky (medium) -
+
 “In the shadowed realm where the Phreaks hold sway,
 A mole lurks within, leading them astray.
 Sending keys to the Talents, so sly and so slick,
@@ -192,6 +196,8 @@ Note: following the conclusion of the event I found a writeup from another compe
 ![image](https://github.com/ryanperez151/CTF-Writeups/assets/50554328/e1cbaae3-7218-49f9-9ae7-0bfceb4fc8c2)
 (source: github/pspspsps-ctf/writeups…)
 
+
+Closing Thoughts
 ===============================================================
 
 I ended up trying another medium and hard difficulty challenge during the rest of the remaining time of the CTF, but was unable to gather the full flag values for either.
