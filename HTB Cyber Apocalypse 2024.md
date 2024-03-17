@@ -1,4 +1,4 @@
-HTB Cyber Apocalypse 3/9-13/2024 - Writeups by Ryan Perez
+HTB Cyber Apocalypse - 3/9-13/2024 - Writeups by Ryan Perez
 ===============================================================
 
 Intro -
@@ -11,7 +11,6 @@ Challenge start! (after party example)
 For the forensics challenges I used several VMs with operating system packages such as a Windows 10, SIFT workstation, Kali, and remnux. Some of the main tools I found myself using were wireshark, cyberchef, python, volatility, and MFTEcmd among others.
 
 
-===============================================================
 Challenges
 ===============================================================
 
