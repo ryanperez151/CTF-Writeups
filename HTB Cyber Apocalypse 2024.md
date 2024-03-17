@@ -11,6 +11,8 @@ Challenge start! (after party example)
 For the forensics challenges I used several VMs with operating system packages such as a Windows 10, SIFT workstation, Kali, and remnux. Some of the main tools I found myself using were wireshark, cyberchef, python, volatility, and MFTEcmd among others.
 
 
+
+
 Challenges
 ===============================================================
 
@@ -43,6 +45,8 @@ Now putting the flags together (HTB{w1ll_y0u_St4nd_y0uR_Gr0uNd!!}) we’re able 
 Flag: HTB{w1ll_y0u_St4nd_y0uR_Gr0uNd!!}
 
 
+
+
 Urgent (very easy) 
 ===============================================================
 
@@ -66,6 +70,8 @@ The phishing payload itself was a fake 404 not found page that contained a power
 
 
 Flag: HTB{4n0th3r_d4y_4n0th3r_ph1shi1ng_4tt3mpT}
+
+
 
 
 Fake Boost (easy)
@@ -108,6 +114,8 @@ Noticing that the email appeared as base64 encoded data instead of an actual ema
 Flag: HTB{fr33_N17r0G3n_3xp053d!_b3W4r3_0f_T00_g00d_2_b3_7ru3_0ff3r5}
 
 
+
+
 Pursue The Tracks (easy)
 ===============================================================
 
@@ -134,6 +142,8 @@ Reviewed the output in a text editor and found the hidden file:
 
 
 Flag: HTB{p4rs1ng_mft_1s_v3ry_1mp0rt4nt_s0m3t1m3s}
+
+
 
 
 Phreaky (medium)
@@ -195,6 +205,8 @@ Flag: HTB{Th3Phr3aksReadyT0Att4ck}
 Note: following the conclusion of the event I found a writeup from another competitor that detailed how the full automation of extracting the pieces and combining could be done. I was impressed to learn how it could be accomplished with some proper code.
 ![image](https://github.com/ryanperez151/CTF-Writeups/assets/50554328/e1cbaae3-7218-49f9-9ae7-0bfceb4fc8c2)
 (source: github/pspspsps-ctf/writeups…)
+
+
 
 
 Closing Thoughts
