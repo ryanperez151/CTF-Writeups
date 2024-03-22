@@ -191,7 +191,9 @@ I tried to challenge myself again to automate combining these file parts into a 
 ![image](https://github.com/ryanperez151/CTF-Writeups/assets/50554328/72991e77-3380-4f95-8000-608cee3c2095)
 
 
+
 I finally got it!
+
 ![image](https://github.com/ryanperez151/CTF-Writeups/assets/50554328/9f59c492-a966-4a8a-b467-e7a0cc7c076e)
 
 
@@ -203,7 +205,8 @@ Flag: HTB{Th3Phr3aksReadyT0Att4ck}
 
 
 Note: following the conclusion of the event I found a writeup from another competitor that detailed how the full automation of extracting the pieces and combining could be done. I was impressed to learn how it could be accomplished with some proper code.
-![image](https://github.com/ryanperez151/CTF-Writeups/assets/50554328/e1cbaae3-7218-49f9-9ae7-0bfceb4fc8c2)
+![image](https://github.com/ryanperez151/CTF-Writeups/assets/50554328/e1cbaae3-7218-49f9-9ae7-0bfceb4fc8c2) 
+
 (source: github/pspspsps-ctf/writeups…)
 
 
